@@ -446,6 +446,12 @@ body {
   border-radius: 999px;
   background-color: var(--accent);
 }
+.company-name {
+  font-family: "STIX Two Text", serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
 
 
 /* Responsive */
