@@ -1,5 +1,5 @@
 :root {
-  --bg: #f6f7fb;
+  --bg: #ffffff;
   --bg-alt: #ffffff;
   --accent: #2f5c9b;
   --accent-soft: #e2ebfa;
@@ -66,7 +66,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  background-color:rgba(157, 34, 41)
+  background-color: #ffffff;
+
   
 
 ;
@@ -77,13 +78,13 @@ body {
   position: sticky;
   top: 0;
   z-index: 50;
-  background-color: #9d2229;
+
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(229, 231, 235, 0.8);
-  color: #ffffff;
+  color:black;
 }
 .site-header a {
-  color: #ffffff;
+  color:black;
 }
 
 .site-header a:hover {
@@ -106,8 +107,9 @@ body {
 }
 
 .logo-img {
-  height: 36px;
-  width: auto;
+  height:75px;
+
+  width: 75px;
   border-radius: 999px;
 }
 
@@ -375,7 +377,7 @@ body {
 
 .site-footer {
   padding: 1.4rem 0 1.8rem;
-  background-color: #9d2229
+  background-color: #3a6254
 ;
   color: #e5e7eb;
   margin-top: 1rem;
@@ -472,6 +474,9 @@ body {
     align-items: flex-start;
     gap: 0.4rem;
   }
+}
+.info-box {
+  margin-top: 1.25rem;
 }
 
 @media (max-width: 768px) {
